@@ -1,10 +1,11 @@
 import type { NextAuthConfig } from "next-auth"
 import GitHub from "@auth/core/providers/github";
+import Osu from "@auth/core/providers/osu";
 
 const protectedRoutes = ['/', '/hola'];
 
 export default {
-    providers: [GitHub],
+    providers: [GitHub, Osu],
     callbacks: {
         authorized({ auth, request: { nextUrl } }) {
             const isLoggedIn = !!auth?.user;

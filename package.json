@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-starter",
+  "name": "otm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -26,6 +26,7 @@
     "next": "15.0.3",
     "next-auth": "^5.0.0-beta.25",
     "next-themes": "^0.4.3",
+    "osu-web.js": "^2.5.0",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-hook-form": "^7.53.2",
